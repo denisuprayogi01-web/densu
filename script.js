@@ -5,37 +5,43 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 1,
             name: "Jaket Bomber Pria (Model Inggris)",
             price: 450000,
-            image: "https://i.imgur.com/83pL3lV.jpg"
+            // Menggunakan URL gambar langsung
+            image: "https://i.imgur.com/83pL3lV.jpg" 
         },
         {
             id: 2,
             name: "Kemeja Lengan Panjang Wanita",
             price: 280000,
-            image: "https://i.imgur.com/kS5x8eD.jpg"
+            // Menggunakan URL gambar langsung
+            image: "https://i.imgur.com/kS5x8eD.jpg" 
         },
         {
             id: 3,
             name: "Celana Jeans Slim-Fit",
             price: 350000,
-            image: "https://i.imgur.com/bW3g1sU.jpg"
+            // Menggunakan URL gambar langsung
+            image: "https://i.imgur.com/bW3g1sU.jpg" 
         },
         {
             id: 4,
             name: "Kaos Henley Pria",
             price: 150000,
-            image: "https://i.imgur.com/U038E5i.jpg"
+            // Menggunakan URL gambar langsung
+            image: "https://i.imgur.com/U038E5i.jpg" 
         },
         {
             id: 5,
             name: "Rok Midi Plisket Wanita",
             price: 220000,
-            image: "https://i.imgur.com/eB3sY3v.jpg"
+            // Menggunakan URL gambar langsung
+            image: "https://i.imgur.com/eB3sY3v.jpg" 
         },
         {
             id: 6,
             name: "Hoodie Klasik Unisex",
             price: 320000,
-            image: "https://i.imgur.com/4q3Vn0f.jpg"
+            // Menggunakan URL gambar langsung
+            image: "https://i.imgur.com/4q3Vn0f.jpg" 
         }
     ];
 
