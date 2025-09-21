@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Densu.co - The Art of Apparel</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="https://i.imgur.com/L7p8iP9.png" alt="Densu.co Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="cart-icon">
+            <button id="cart-button">🛒 Keranjang (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1>The Art of Apparel, Crafted for You.</h1>
+            <p>Koleksi pakaian terbaik dari bahan premium, dibuat dengan seni untuk gaya Anda.</p>
+        </section>
+
+        <section id="products">
+            <h2>Koleksi Kami</h2>
+            <div class="product-grid" id="product-container">
+                </div>
+        </section>
+    </main>
+
+    <div id="cart-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Keranjang Belanja</h2>
+            <div id="cart-items">
+                </div>
+            <div class="cart-total">
+                <h3>Total: Rp<span id="total-price">0</span></h3>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Densu.co. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
